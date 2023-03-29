@@ -11,6 +11,7 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "build:digitalocean": "yarn install --production=false && yarn run build && rm -rf node_modules && yarn install --production --frozen-lockfile",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
